@@ -23,7 +23,7 @@ body {
     radial-gradient(circle at 12% 0%, rgba(202, 162, 94, .10), transparent 26rem),
     var(--background);
   color: var(--foreground);
-  font-family: "Noto Sans Bengali", "Hind Siliguri", "SolaimanLipi", "Vrinda", Arial, sans-serif;
+  font-family: var(--font-hind-siliguri), "Hind Siliguri", "Noto Sans Bengali", "SolaimanLipi", "Vrinda", Arial, sans-serif;
 }
 button, select, input { font: inherit; }
 a { text-underline-offset: 3px; }
