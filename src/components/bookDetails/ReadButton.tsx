@@ -5,9 +5,9 @@ import { IBook } from "@/types/books.type";
 import { useContext } from "react";
 import { toast } from "react-toastify";
 
-const ReadButton = ({ book }: { book: IBook }) => {
+export default function ReadButton({ book }: { book: IBook }) {
   const { addReadBook, readBooks } = useContext(BooksContext);
-  const alreadyRead = readBooks.some((item) => item.bookId === book.bookId);
+  const added = readBooks.some((item) => item.bookId === book.bookId);
 
   const handleClick = () => {
     const result = addReadBook(book);
@@ -15,14 +15,8 @@ const ReadButton = ({ book }: { book: IBook }) => {
   };
 
   return (
-    <button
-      onClick={handleClick}
-      className="btn-outline flex-1"
-      aria-pressed={alreadyRead}
-    >
-      {alreadyRead ? "পড়া তালিকায় আছে ✓" : "পড়া হয়েছে"}
+    <button type="button" onClick={handleClick} className="detail-read-btn">
+      {added ? "পড়া হয়েছে ✓" : "পড়া হয়েছে"}
     </button>
   );
-};
-
-export default ReadButton;
+}

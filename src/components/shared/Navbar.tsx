@@ -1,89 +1,84 @@
 "use client";
 
+import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useState } from "react";
+import logo from "@/assets/book.ico";
 
-const navItems = [
+const links = [
   { href: "/", label: "হোম" },
   { href: "/books", label: "বইসমূহ" },
-  { href: "/listed-books", label: "আমার পাঠতালিকা" },
+  { href: "/listed-books", label: "তালিকাভুক্ত বই" },
   { href: "/read-books", label: "পাঠের অগ্রগতি" },
   { href: "/about", label: "আমাদের সম্পর্কে" },
 ];
 
-const Navbar = () => {
+export default function Navbar() {
   const pathname = usePathname();
   const [open, setOpen] = useState(false);
 
-  const active = (href: string) =>
+  const isActive = (href: string) =>
     href === "/" ? pathname === "/" : pathname.startsWith(href);
 
   return (
-    <header className="sticky top-0 z-50 border-b border-[var(--brand-border)] bg-[rgba(255,253,248,.94)] backdrop-blur-xl">
-      <div className="container-shell flex min-h-20 items-center justify-between gap-4 py-3">
-        <Link href="/" className="flex items-center gap-3" aria-label="চেতনা প্রকাশনী হোম">
-          <span className="brand-mark" aria-hidden="true">
-            <span className="brand-mark-page brand-mark-page-left" />
-            <span className="brand-mark-page brand-mark-page-right" />
-          </span>
-          <span>
-            <span className="block text-xl font-black leading-none text-[var(--brand)] md:text-2xl">
-              চেতনা প্রকাশনী
-            </span>
-            <span className="mt-1 block text-[11px] font-bold tracking-wide text-[var(--muted)]">
-              পাঠে জাগুক চেতনা
-            </span>
-          </span>
+    <header className="site-header">
+      <div className="figma-container navbar-row">
+        <Link href="/" className="brand" aria-label="চেতনা প্রকাশনী হোম">
+          <Image src={logo} alt="" className="brand-icon" priority />
+          <span>চেতনা প্রকাশনী</span>
         </Link>
 
-        <nav className="hidden items-center gap-1 lg:flex" aria-label="প্রধান নেভিগেশন">
-          {navItems.map((item) => (
+        <nav className="desktop-nav" aria-label="প্রধান নেভিগেশন">
+          {links.map((item) => (
             <Link
               key={item.href}
               href={item.href}
-              className={`rounded-full px-4 py-2.5 text-sm font-bold transition ${
-                active(item.href)
-                  ? "bg-[var(--brand)] text-white shadow-sm"
-                  : "text-slate-600 hover:bg-[var(--brand-soft)] hover:text-[var(--brand)]"
-              }`}
+              className={isActive(item.href) ? "nav-link active" : "nav-link"}
             >
               {item.label}
             </Link>
           ))}
         </nav>
 
+        <div className="auth-actions">
+          <button type="button" className="figma-btn figma-btn-green">
+            সাইন ইন
+          </button>
+          <button type="button" className="figma-btn figma-btn-cyan">
+            সাইন আপ
+          </button>
+        </div>
+
         <button
           type="button"
+          className="mobile-menu-btn"
           onClick={() => setOpen((value) => !value)}
-          className="grid h-11 w-11 place-items-center rounded-xl border border-[var(--brand-border)] bg-white text-[var(--brand)] lg:hidden"
-          aria-label={open ? "মেনু বন্ধ করুন" : "মেনু খুলুন"}
           aria-expanded={open}
+          aria-label={open ? "মেনু বন্ধ করুন" : "মেনু খুলুন"}
         >
-          <span className="text-xl" aria-hidden="true">{open ? "×" : "☰"}</span>
+          {open ? "×" : "☰"}
         </button>
       </div>
 
       {open && (
-        <nav className="container-shell grid gap-2 border-t border-[var(--brand-border)] py-3 lg:hidden" aria-label="মোবাইল নেভিগেশন">
-          {navItems.map((item) => (
+        <nav className="figma-container mobile-nav" aria-label="মোবাইল নেভিগেশন">
+          {links.map((item) => (
             <Link
               key={item.href}
               href={item.href}
               onClick={() => setOpen(false)}
-              className={`rounded-xl px-4 py-3 font-bold ${
-                active(item.href)
-                  ? "bg-[var(--brand)] text-white"
-                  : "bg-white text-slate-700"
-              }`}
+              className={isActive(item.href) ? "mobile-link active" : "mobile-link"}
             >
               {item.label}
             </Link>
           ))}
+          <div className="mobile-auth">
+            <button type="button" className="figma-btn figma-btn-green">সাইন ইন</button>
+            <button type="button" className="figma-btn figma-btn-cyan">সাইন আপ</button>
+          </div>
         </nav>
       )}
     </header>
   );
-};
-
-export default Navbar;
+}
