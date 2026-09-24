@@ -1,0 +1,201 @@
+[
+  {
+    "bookId": 1,
+    "bookName": "যোগাযোগ ফিলিস্তিন",
+    "author": "আহমাদ সাব্বির",
+    "image": "https://rokbucket.rokomari.io/ProductNew20190903/260X372/Jogajog_Philistin-Ahmad_Sabbir-916cf-361742.jpg",
+    "review": "ফিলিস্তিনের ইতিহাস, বর্তমান বাস্তবতা, জনমত ও প্রচলিত বিভ্রান্তি—এসব প্রসঙ্গকে একসঙ্গে বুঝতে সহায়তা করার উদ্দেশ্যে প্রস্তুত একটি বিষয়ভিত্তিক সংকলন। সমকালীন ঘটনাকে ঐতিহাসিক প্রেক্ষাপটে দেখতে আগ্রহী পাঠকের জন্য বইটি একটি প্রাথমিক পাঠদ্বার তৈরি করে।",
+    "totalPages": 456,
+    "rating": null,
+    "ratingCount": 1,
+    "category": "ইসলামি ইতিহাস ও সমকাল",
+    "tags": [
+      "ফিলিস্তিন",
+      "সমকাল",
+      "ইতিহাস"
+    ],
+    "publisher": "চেতনা প্রকাশনী",
+    "yearOfPublishing": 2023,
+    "edition": "প্রথম প্রকাশ, ২০২৩",
+    "binding": "পেপারব্যাক",
+    "price": 380,
+    "sourceUrl": "https://www.rokomari.com/book/361742/jogajog-philistin"
+  },
+  {
+    "bookId": 2,
+    "bookName": "মুমিনের ক্যারিয়ার ভাবনা",
+    "author": "ডা. শামসুল আরেফীন",
+    "image": "https://rokbucket.rokomari.io/ProductNew20190903/260X372/Mominer_Career_Bhabna-Dr_Shamsul_Arafin-07a41-298713.jpeg",
+    "review": "ক্যারিয়ার, জীবনের লক্ষ্য, রিজিক, সম্মান, দাওয়াহ ও সদাকাহ—এই বিষয়গুলোকে একজন মুমিনের দৃষ্টিভঙ্গি থেকে ভাবতে সাহায্য করে বইটি। পেশাগত উন্নতি যেন শুধু ব্যক্তিগত সাফল্যে সীমাবদ্ধ না থেকে মূল্যবোধ ও কল্যাণের সঙ্গে যুক্ত হয়, সেই ভাবনাই এখানে গুরুত্ব পেয়েছে।",
+    "totalPages": 152,
+    "rating": 4.76,
+    "ratingCount": 57,
+    "category": "ক্যারিয়ার ও আত্মউন্নয়ন",
+    "tags": [
+      "ক্যারিয়ার",
+      "আত্মউন্নয়ন",
+      "দাওয়াহ"
+    ],
+    "publisher": "চেতনা প্রকাশনী",
+    "yearOfPublishing": 2023,
+    "edition": "প্রথম প্রকাশ, ২০২৩",
+    "binding": "পেপারব্যাক",
+    "price": 240,
+    "sourceUrl": "https://www.rokomari.com/book/298713/muminer-career-bhabna"
+  },
+  {
+    "bookId": 3,
+    "bookName": "দ্বীনে ফেরার পর হারিয়ে যেয়ো না",
+    "author": "ডা. শামসুল আরেফীন ও অন্যান্য",
+    "image": "https://rokbucket.rokomari.io/ProductNew20190903/260X372/Dine_Ferar_Por_Hariye_Jeo_Na-Dr_Shamsul_Arafin-ad6c9-344255.png",
+    "review": "দ্বীনের পথে নতুনভাবে চলতে শুরু করার পর ধারাবাহিকতা, আত্মশুদ্ধি, সঙ্গ নির্বাচন ও দৈনন্দিন জীবনে নীতিগত স্থিরতা ধরে রাখার প্রয়োজনীয়তা নিয়ে লেখা। শুরু করার উদ্দীপনাকে কীভাবে দীর্ঘমেয়াদি অভ্যাসে রূপ দেওয়া যায়—বইটি সেই আলোচনাকে সহজ ভাষায় সামনে আনে।",
+    "totalPages": 128,
+    "rating": 4.93,
+    "ratingCount": 22,
+    "category": "আত্মশুদ্ধি",
+    "tags": [
+      "হেদায়াত",
+      "আত্মশুদ্ধি",
+      "জীবনযাপন"
+    ],
+    "publisher": "চেতনা প্রকাশনী",
+    "yearOfPublishing": 2023,
+    "edition": "প্রথম প্রকাশ, ২০২৩",
+    "binding": "পেপারব্যাক",
+    "price": 200,
+    "sourceUrl": "https://www.rokomari.com/book/344255/dine-ferar-por-hariye-jeo-na"
+  },
+  {
+    "bookId": 4,
+    "bookName": "রুকইয়ার আয়াত ও দুআ",
+    "author": "আব্দুল্লাহ আল মাহমুদ",
+    "image": "https://rokbucket.rokomari.io/ProductNew20190903/260X372/Ruqyar_Ayat_O_Dua-Abdullah_Al_Mahmud-65c50-351854.png",
+    "review": "কুরআনের নির্বাচিত আয়াত, মাসনূন দুআ ও রুকইয়াহ সম্পর্কিত প্রয়োজনীয় পাঠ একত্রে সাজানো একটি ব্যবহারিক সংকলন। পাঠক যেন বিষয়গুলো সহজে খুঁজে পেতে পারেন, সেদিকে লক্ষ্য রেখে অধ্যায় ও দুআগুলো বিন্যস্ত করা হয়েছে।",
+    "totalPages": 240,
+    "rating": 4.73,
+    "ratingCount": 13,
+    "category": "দুআ ও রুকইয়াহ",
+    "tags": [
+      "রুকইয়াহ",
+      "দুআ",
+      "কুরআন"
+    ],
+    "publisher": "চেতনা প্রকাশনী",
+    "yearOfPublishing": 2024,
+    "edition": "দ্বিতীয় সংস্করণ, নভেম্বর ২০২৪",
+    "binding": "হার্ডকভার",
+    "price": 360,
+    "sourceUrl": "https://www.rokomari.com/book/351854/ruqyar-ayat-o-dua"
+  },
+  {
+    "bookId": 5,
+    "bookName": "সিন্ধু থেকে বঙ্গ",
+    "author": "মনযূর আহমাদ",
+    "image": "https://rokbucket.rokomari.io/ProductNew20190903/260X372/Shindhu_theke_bongo-Monjur_Ahmad-ffb3f-218778.jpg",
+    "review": "ভারতীয় উপমহাদেশে ইসলামের আগমন, মুসলিম শাসনের বিভিন্ন পর্ব, বাংলা অঞ্চলের ইতিহাস এবং মুঘল যুগসহ দীর্ঘ সময়ের রাজনৈতিক, সামাজিক ও সাংস্কৃতিক ঘটনাপ্রবাহকে দুই খণ্ডে উপস্থাপন করা হয়েছে। উপমহাদেশের ইতিহাসকে একটি বিস্তৃত ধারাবাহিকতায় পড়তে বইটি সহায়ক।",
+    "totalPages": 912,
+    "rating": 4,
+    "category": "ইসলামি ইতিহাস ও ঐতিহ্য",
+    "tags": [
+      "ইতিহাস",
+      "উপমহাদেশ",
+      "বাংলা"
+    ],
+    "publisher": "চেতনা প্রকাশনী",
+    "yearOfPublishing": 2023,
+    "edition": "দুই খণ্ড",
+    "binding": "হার্ডকভার",
+    "price": 1200,
+    "sourceUrl": "https://chetonaprokashon.com/"
+  },
+  {
+    "bookId": 6,
+    "bookName": "বুনিয়াদি আকাইদ",
+    "author": "মাওলানা বেলাল বিন আলী",
+    "image": "https://rokbucket.rokomari.io/ProductNew20190903/260X372/Buniyadi_Aqaid_-Maolana_Tahmidul_Maola-e423c-271414.png",
+    "review": "ঈমান ও আকিদার মৌলিক বিষয়গুলোকে বিষয়ভিত্তিকভাবে পরিচয় করিয়ে দেওয়ার জন্য রচিত একটি ভিত্তিমূলক গ্রন্থ। আকিদাসংক্রান্ত পরিভাষা ও কেন্দ্রীয় ধারণাগুলো ধাপে ধাপে বোঝার জন্য পাঠক বইটিকে সহায়ক পাঠ হিসেবে ব্যবহার করতে পারেন।",
+    "totalPages": 352,
+    "rating": 3.6,
+    "ratingCount": 16,
+    "category": "ঈমান ও আকিদা",
+    "tags": [
+      "আকিদা",
+      "ঈমান",
+      "তাওহিদ"
+    ],
+    "publisher": "চেতনা প্রকাশনী",
+    "yearOfPublishing": 2023,
+    "edition": "দ্বিতীয় সংস্করণ, ২০২৩",
+    "binding": "হার্ডকভার",
+    "price": 400,
+    "sourceUrl": "https://www.rokomari.com/book/271414/buniyadi-aqaid"
+  },
+  {
+    "bookId": 7,
+    "bookName": "উমাইয়া খেলাফত",
+    "author": "ড. সুহাইল তাক্কুশ",
+    "image": "https://rokbucket.rokomari.io/ProductNew20190903/260X372/Umaiya_Khelafot_-Dr_Suhail_Takkush-23c10-351862.png",
+    "review": "উমাইয়া খেলাফতের প্রতিষ্ঠা, রাজনৈতিক বিকাশ, গুরুত্বপূর্ণ শাসক, প্রশাসনিক পরিবর্তন ও ঐতিহাসিক ঘটনাপ্রবাহকে ধারাবাহিকভাবে আলোচনায় আনা হয়েছে। ইসলামি ইতিহাসের এই গুরুত্বপূর্ণ অধ্যায় সম্পর্কে কাঠামোবদ্ধ ধারণা পেতে বইটি উপযোগী।",
+    "totalPages": 232,
+    "rating": 5,
+    "ratingCount": 2,
+    "category": "ইসলামি ইতিহাস ও ঐতিহ্য",
+    "tags": [
+      "খেলাফত",
+      "উমাইয়া",
+      "ইতিহাস"
+    ],
+    "publisher": "চেতনা প্রকাশনী",
+    "yearOfPublishing": 2023,
+    "edition": "প্রথম প্রকাশ, ২০২৩",
+    "binding": "হার্ডকভার",
+    "price": 360,
+    "translator": "মুজিব মাহমুদ",
+    "sourceUrl": "https://www.rokomari.com/book/351862/umaiya-khelafot"
+  },
+  {
+    "bookId": 8,
+    "bookName": "ইমাম গাজালির নাসিহা",
+    "author": "শাইখ সালেহ আহমাদ শামি",
+    "image": "https://rokbucket.rokomari.io/ProductNew20190903/260X372/Imam_Gajalir_Nasiha_-Shaikh_Saleh_Ahmad_Shami-0d717-438936.png",
+    "review": "ইমাম গাজালির নসিহতধর্মী রচনার নির্বাচিত ভাবনাকে পাঠকের সামনে সংক্ষিপ্ত ও পাঠযোগ্যভাবে তুলে ধরা হয়েছে। আত্মসমালোচনা, নৈতিক শুদ্ধতা ও আমলের প্রতি যত্নশীল হওয়ার মতো বিষয়গুলো বইটির কেন্দ্রীয় আলোচনায় রয়েছে।",
+    "totalPages": 109,
+    "rating": null,
+    "category": "নাসিহা ও আত্মশুদ্ধি",
+    "tags": [
+      "নাসিহা",
+      "ইমাম গাজালি",
+      "আত্মশুদ্ধি"
+    ],
+    "publisher": "চেতনা প্রকাশনী",
+    "yearOfPublishing": 2024,
+    "edition": "প্রথম প্রকাশ, ২০২৪",
+    "binding": "পেপারব্যাক",
+    "price": 160,
+    "translator": "মাওলানা মাহমুদ আহমাদ",
+    "sourceUrl": "https://www.rokomari.com/book/438936/imam-gajalir-nasiha"
+  },
+  {
+    "bookId": 9,
+    "bookName": "হিউম্যান রাইটস চার্টার",
+    "author": "মুফতি উবাইদুর রহমান",
+    "image": "https://rokbucket.rokomari.io/ProductNew20190903/260X372/Human_Rghts_Charter_-Mufti_Ubaidur_Rahman-dee7e-436448.jpeg",
+    "review": "মানবাধিকার নিয়ে প্রচলিত আন্তর্জাতিক ধারণা ও ইসলামি দৃষ্টিভঙ্গির বিভিন্ন প্রশ্নকে তুলনামূলক আলোচনায় দেখার চেষ্টা করা হয়েছে। সমকালীন নীতি, অধিকার ও মূল্যবোধের ভাষ্য নিয়ে আগ্রহী পাঠকের জন্য এটি একটি সংক্ষিপ্ত বিশ্লেষণধর্মী পাঠ।",
+    "totalPages": 96,
+    "rating": 5,
+    "ratingCount": 3,
+    "category": "ইসলাম ও সমকাল",
+    "tags": [
+      "মানবাধিকার",
+      "সমকাল",
+      "বিশ্লেষণ"
+    ],
+    "publisher": "চেতনা প্রকাশনী",
+    "yearOfPublishing": 2024,
+    "edition": "প্রথম প্রকাশ, ২০২৪",
+    "binding": "পেপারব্যাক",
+    "price": 160,
+    "translator": "মাওলানা আরিফুল ইসলাম",
+    "sourceUrl": "https://www.rokomari.com/book/436448/human-rights-charter"
+  }
+]
